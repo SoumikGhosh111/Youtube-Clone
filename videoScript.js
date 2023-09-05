@@ -2,7 +2,10 @@ let cookieString = document.cookie;
 
 let videoId =  cookieString.split("=")[1];
 // const apiKey = localStorage.getItem("api_key"); 
-const apikey = "AIzaSyB-xjG2MYpMlIQlONUe_Vm75Ix2JAg_B7s"; 
+const apikey = "AIzaSyAfgUa4P7751n20O113zUKmIPsoojoanrQ"; 
+// key 1... AIzaSyB-xjG2MYpMlIQlONUe_Vm75Ix2JAg_B7s
+// key 2... AIzaSyAfgUa4P7751n20O113zUKmIPsoojoanrQ
+
 let firstScript = document.getElementsByTagName("script")[0] ;
 
 firstScript.addEventListener("load", onLoadScript)
